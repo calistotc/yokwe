@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Moon, Sun, Scale } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -25,8 +25,12 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="p-2 bg-secondary dark:bg-secondary-light rounded-lg transition-transform group-hover:scale-105">
-              <Scale className="h-8 w-8 text-accent" />
+            <div className="transition-transform group-hover:scale-105">
+              <img
+                src="/logo.jpeg"
+                alt="Yokwe Attorneys Inc. Logo"
+                className="h-12 w-auto rounded-lg"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-secondary dark:text-primary-light">
