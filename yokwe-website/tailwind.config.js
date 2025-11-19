@@ -9,20 +9,20 @@ module.exports = {
       colors: {
         // 60% - Background colors
         primary: {
-          light: '#FFFFFF',
-          dark: '#1A1A1A',
+          light: '#FFFFFF',  // Pure White
+          dark: '#000000',   // Pure Black
         },
         // 30% - Secondary/Accent colors
         secondary: {
-          DEFAULT: '#1E3A5F', // Navy blue
-          light: '#2C5282',
-          dark: '#152943',
+          DEFAULT: '#2D3748', // Rich Slate Gray
+          light: '#4A5568',   // Light Slate
+          dark: '#1A202C',    // Deep Charcoal
         },
         // 10% - Highlight colors
         accent: {
           DEFAULT: '#D4AF37', // Gold
-          light: '#E5C158',
-          dark: '#B8941F',
+          light: '#E5C158',   // Light Gold
+          dark: '#B8941F',    // Dark Gold
         },
       },
       fontFamily: {
